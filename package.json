@@ -8,12 +8,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack -d -w"
+    "start": "webpack -d -w",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
     "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2"
   }
