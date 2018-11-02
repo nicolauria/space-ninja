@@ -3,6 +3,9 @@
 ## Background and Overview
 Space Chop is based off the popular game Fruit Ninja. It is a single player game where the inidivual attempts to move his cursor and target objects as they are displayed on the screen. The player accumulates points for slicing a shape.
 
+<kbd>![Alt text](images/space-chop-homepage.png?s=50)</kbd>
+<kbd>![Alt text](images/space-chop-game-view.png?s=50)</kbd>
+
 ## Functionality and MVP
 * Shapes display on the screen and correctly move from one location to another
 * When sliced shapes dissipate
