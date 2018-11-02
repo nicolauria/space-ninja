@@ -1,0 +1,31 @@
+{
+  "name": "space-chop",
+  "version": "1.0.0",
+  "description": "## Background and Overview Space Chop is based off the popular game Fruit Ninja. It is a single player game where the inidivual attempts to move his cursor and target objects as they are displayed on the screen. The player accumulates points for slicing a shape.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "webpack-cli": "^3.1.2",
+    "webpack": "^4.23.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"index file loaded\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolauria/space-chop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolauria/space-chop/issues"
+  },
+  "homepage": "https://github.com/nicolauria/space-chop#readme"
+}
