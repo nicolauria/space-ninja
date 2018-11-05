@@ -1,7 +1,7 @@
-# Space Chop
+# Space Ninja
 
 ## Background and Overview
-Space Chop is based off the popular game Fruit Ninja. It is a single player game where the inidivual attempts to move his cursor and target objects as they are displayed on the screen. [https://nicolauria.github.io/space-chop/](https://nicolauria.github.io/space-chop/)
+Space Ninja is based off the popular game Fruit Ninja. It is a single player game where the inidivual attempts to move his cursor and target objects as they are displayed on the screen. [https://nicolauria.github.io/space-ninja/](https://nicolauria.github.io/space-ninja/)
 
 <kbd>![Alt text](images/space-chop-homepage.png?s=50)</kbd>
 <kbd>![Alt text](images/space-chop-game-view.png?s=50)</kbd>
