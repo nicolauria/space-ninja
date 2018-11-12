@@ -18,6 +18,22 @@ The app consists of a single screen with the following features:
 * HTML Canvas for game visuals
 * CSS3 for additional styling and game effects
 
+## Specific Features
+
+``Fruit.prototype.update = function() {
+  this.x += this.xV;
+  this.y += this.yV;
+
+  this.xV *= 1;
+  // add gravity until yV becomes positive (causes shape to move down)
+  this.yV += GRAVITY;
+
+  if (this.y > height) {
+    this.visible = false;
+  }
+};
+``
+
 ## Implementation Timeline
 **Day 1:** Create basic entry file and skeleton of other classes<br />
 **Day 2:** Add canvas to app and display shapes<br />
