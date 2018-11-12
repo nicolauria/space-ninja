@@ -34,7 +34,28 @@ Fruit.prototype.update = function() {
   }
 };
 ```
+- function for creating random shapes
+```
+function randomFruit() {
+  let x = random(width);
+  let y = height;
+  let size = noise(frameCount) * 50 + 20;
 
+  const colors = [
+    color(218, 20, 255),
+    color(20, 57, 255),
+    color(57, 255, 40),
+    color(255, 218, 20)
+  ]
+
+  let col = colors.randomElement();
+  let speed = random(3, 5);
+  let bad = (random() > 0.85);
+  if (bad) col = color(255, 20, 57);
+
+  return new Fruit(x, y, size, col, speed, bad);
+}
+```
 ## Implementation Timeline
 **Day 1:** Create basic entry file and skeleton of other classes<br />
 **Day 2:** Add canvas to app and display shapes<br />
