@@ -61,3 +61,4 @@ function randomFruit() {
 **Day 2:** Add canvas to app and display shapes<br />
 **Day 3:** Add functionality for sword swipe and shape destruction<br />
 **Day 4:** Style canvas, shapes and game controls<br />
+adding a new line
