@@ -20,7 +20,7 @@ The app consists of a single screen with the following features:
 
 ## Specific Features
 
-``Fruit.prototype.update = function() {
+```Fruit.prototype.update = function() {
   this.x += this.xV;
   this.y += this.yV;
 
@@ -32,7 +32,7 @@ The app consists of a single screen with the following features:
     this.visible = false;
   }
 };
-``
+```
 
 ## Implementation Timeline
 **Day 1:** Create basic entry file and skeleton of other classes<br />
