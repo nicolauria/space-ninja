@@ -7,23 +7,16 @@ Space Ninja is based off the popular game Fruit Ninja. It is a single player gam
 <kbd>![Alt text](images/space-chop-game-view.png?s=50)</kbd>
 <kbd>![Alt text](images/space-chop-final-score.png?s=50)</kbd>
 
-## Functionality and MVP
-* Shapes display on the screen and correctly move from one location to another
-* When sliced shapes dissipate
-* Each slice of a shape adds to the total points
-* Player loses a life if two many shapes have been missed
-
-## Wireframes
-This app will consist of a single screen. The screen will include:
-* settings option (turn volume on or off)
-* main container where shapes are displayed
-* player lightsaber sword
-* additional info (total points, number of lives remaining)
+## Layout
+The app consists of a single screen with the following features:
+* new game option for beginning a round of Space Ninja
+* points counter and lives counter
+* cursor for slicing shapes with trailing effect for visuals
 
 ## Architecture and Technologies
-* Vanilla Javascript for app structure and game logic
+* Javascript ES6 and the P5 Library for the app structure and game logic
 * HTML Canvas for game visuals
-* Webpack for bundling and serving JS Scripts
+* CSS3 for additional styling and game effects
 
 ## Implementation Timeline
 **Day 1:** Create basic entry file and skeleton of other classes<br />
