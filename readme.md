@@ -19,7 +19,7 @@ The app consists of a single screen with the following features:
 * CSS3 for additional styling and game effects
 
 ## Specific Features
-
+- function for adding gravity and causing the shapes to move up and down
 ```Fruit.prototype.update = function() {
   this.x += this.xV;
   this.y += this.yV;
